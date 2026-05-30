@@ -7,7 +7,7 @@ import sqlite3
 DB_PATH = os.path.join(os.path.dirname(__file__), "expenses.db")
 CATEGORIES_PATH = os.path.join(os.path.dirname(__file__), "categories.json")
 
-mcp = FastMCP("ExpenseTracker")
+mcp = FastMCP("ExpenseTracker2")
 
 def load_category_catalog():
     with open(CATEGORIES_PATH, "r", encoding="utf-8") as f:
